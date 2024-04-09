@@ -1,0 +1,113 @@
+@import url('http://fonts.googleleapis.com/css2?family=konkhmer+sleokcher&display=swap');
+.body{
+    background:rgb(247, 247, 247)
+}
+#table-container{
+
+    background-image: background;
+    background:rgb(240,240,240);
+    height:225px;
+    width: 800px;
+    overflow:auto;
+    overflow-x:auto;
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgb(0,0,0,0.15);
+    position:absolute;
+    top: 60%;;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+*{
+   font-family: 'konkhmer sleokcher',cursive;
+}
+table{
+    width: inherit;
+}
+tr{
+    margin-bottom: 5px;
+}
+td{
+    text-align: center;
+    background:#149a26;
+    color: white;
+    font-family: 'montserrat',sans-serif;
+    border-radius:3px;
+    border: 1px solid  black;
+}
+th{
+    background:#149a26;
+    color: white;
+    text-align:center;
+    height:50px;
+    
+}
+::placeholder,input{
+    text-align:center;
+}
+td.food{
+    background:#258341bb;
+}
+.clothing{
+    background:#38eccb;
+
+}
+td.transportation{
+      background:4bce6a;
+}
+td.debt{
+    background:#f4445b;
+}
+td.education{
+    background:#258341bb;
+}
+td.miscellaneous{
+    background:#258341bb;
+}
+#container{
+    background:#149a26;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    padding:10px;
+    gap:10px;
+}
+button{
+    place-self: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    width: 100px;
+    background:#149a26;
+    padding: auto;
+    margin: 5px;
+    border-radius:5px;
+    font-family: 'montserrat',sans-serif;
+    border: 1px solid  black; 
+    height: 30px;
+    color: white;
+}
+input, select{
+    border: radius 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 40px;
+}
+select{
+    text-align: center;
+}
+h2{
+    align-items: left;
+    padding: auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+ #print-pdf-button {
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+ }
